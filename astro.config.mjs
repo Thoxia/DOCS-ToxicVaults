@@ -11,7 +11,7 @@ export default defineConfig({
         src: "./src/assets/thoxia.webp",
         replacesTitle: false,
       },
-      favicon: "./public/thoxia.ico",
+      favicon: "/thoxia.ico",
       customCss: [
         // Relative path to your custom CSS file
         "./src/styles/thoxia.css",
