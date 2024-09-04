@@ -6,9 +6,17 @@ export default defineConfig({
   site: "https://docs.thoxia.com",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "THOXIA",
+      logo: {
+        src: "./src/assets/thoxia.webp",
+        replacesTitle: false,
+      },
+      customCss: [
+        // Relative path to your custom CSS file
+        "./src/styles/thoxia.css",
+      ],
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/Thoxia",
       },
       sidebar: [
         {

@@ -1,36 +1,24 @@
 ---
-title: Welcome to Starlight
+title: Help Center
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Welcome to the help page for all of the THOXIA's products.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/thoxia.gif
   actions:
-    - text: Example Guide
+    - text: Read the docs!
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Badge, Icon } from '@astrojs/starlight/components';
 
-## Next steps
-
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="text-align: center; margin-bottom: 1vh;">
+        <h1>Still need help?</h1>
+        <h4 style="margin-top: 1vh;">Join our <Badge text="Discord" variant="note" size="large" style="font-size:1.2rem" /> community!</h4>
+    </div>
+	
+    <iframe src="https://discord.com/widget?id=1188430827638509578&theme=dark" style="height:35vh; width:100%; max-width: 400px;" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</div>
