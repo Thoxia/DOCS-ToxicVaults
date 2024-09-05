@@ -6,6 +6,17 @@ export default defineConfig({
   site: "https://docs.thoxia.com",
   integrations: [
     starlight({
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "English",
+          lang: "en",
+        },
+        tr: {
+          label: "Türkçe",
+          lang: "tr",
+        },
+      },
       title: "THOXIA",
       logo: {
         src: "./src/assets/thoxia.webp",
@@ -18,18 +29,15 @@ export default defineConfig({
       ],
       social: {
         github: "https://github.com/Thoxia",
+        discord: "https://discord.gg/9vcAHQnZsg",
       },
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Welcome",
+          link: "/welcome",
+          translations: {
+            tr: "Hoş geldiniz!",
+          },
         },
       ],
     }),
