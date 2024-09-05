@@ -40,6 +40,25 @@ export default defineConfig({
           },
         },
         {
+          label: "ToxicVaults",
+          badge: { text: "customer favorite", variant: "success" },
+          items: [
+            {
+              slug: "toxicvaults/info",
+              badge: { text: "?", variant: "default" },
+            },
+            {
+              label: "Features",
+              translations: {
+                tr: "Özellikler",
+              },
+              badge: { text: "⭐", variant: "tip" },
+              collapsed: true,
+              autogenerate: { directory: "toxicvaults/features" },
+            },
+          ],
+        },
+        {
           label: "sFarmer",
           badge: { text: "new product", variant: "success" },
           items: [
@@ -58,7 +77,7 @@ export default defineConfig({
             },
           ]
         }
-      ]
+      ],
     }),
   ],
 });
