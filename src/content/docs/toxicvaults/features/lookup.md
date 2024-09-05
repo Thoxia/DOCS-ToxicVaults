@@ -11,6 +11,6 @@ Admin command: `/pvadmin find <item>`, searches all vaults. (`toxicvaults.find.a
 
 To grant access to this feature: `toxicvaults.find`
 
-![Command](/src/assets/toxicvaults/find/command.png "Command")
-![GUI](/src/assets/toxicvaults/find/gui.png "GUI")
-![GUI](/src/assets/toxicvaults/find/gui2.png "GUI")
+![Command](../../../../assets/toxicvaults/find/command.png "Command")
+![GUI](../../../../assets/toxicvaults/find/gui.png "GUI")
+![GUI](../../../../assets/toxicvaults/find/gui2.png "GUI")

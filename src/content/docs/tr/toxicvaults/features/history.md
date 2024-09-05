@@ -9,8 +9,8 @@ Bu yönetici komutu ile birlikte sandık düzenleme ve geri alma işlemleri de y
 
 Bu özelliğe erişim vermek için: `toxicvaults.history`
 
-![Command](/src/assets/toxicvaults/history/command.png "Command")
+![Command](../../../../../assets/toxicvaults/history/command.png "Command")
 `/pvhistory <numara>` komutu da kullanılabilir.
 
-![GUI](/src/assets/toxicvaults/history/gui.png "GUI")
-![GUI](/src/assets/toxicvaults/history/icon.png "GUI")
+![GUI](../../../../../assets/toxicvaults/history/gui.png "GUI")
+![GUI](../../../../../assets/toxicvaults/history/icon.png "GUI")

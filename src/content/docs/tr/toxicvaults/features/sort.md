@@ -6,4 +6,4 @@ Bu özellik sayesinde oyuncular depolarını otomatik bir şekilde düzenleyebil
 
 Bu özelliğe erişim vermek için: `toxicvaults.sort`
 
-![GUI](/src/assets/toxicvaults/sort/sort.gif "GUI")
+![GUI](../../../../../assets/toxicvaults/sort/sort.gif "GUI")

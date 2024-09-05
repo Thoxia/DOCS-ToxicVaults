@@ -9,8 +9,8 @@ With this admin command, chest edits and rollbacks can also be performed.
 
 To grant access to this feature: `toxicvaults.history`
 
-![Command](/src/assets/toxicvaults/history/command.png "Command")  
+![Command](../../../../assets/toxicvaults/history/command.png "Command")  
 The command `/pvhistory <number>` can also be used.
 
-![GUI](/src/assets/toxicvaults/history/gui.png "GUI")  
-![GUI](/src/assets/toxicvaults/history/icon.png "GUI")
+![GUI](../../../../assets/toxicvaults/history/gui.png "GUI")  
+![GUI](../../../../assets/toxicvaults/history/icon.png "GUI")

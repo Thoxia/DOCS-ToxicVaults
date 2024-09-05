@@ -11,6 +11,6 @@ Yetkili komutu: `/pvadmin find <eşya>`, tüm depoları arar. (`toxicvaults.find
 
 Bu özelliğe erişim vermek için: `toxicvaults.find`
 
-![Command](/src/assets/toxicvaults/find/command.png "Command")
-![GUI](/src/assets/toxicvaults/find/gui.png "GUI")
-![GUI](/src/assets/toxicvaults/find/gui2.png "GUI")
+![Command](../../../../../assets/toxicvaults/find/command.png "Command")
+![GUI](../../../../../assets/toxicvaults/find/gui.png "GUI")
+![GUI](../../../../../assets/toxicvaults/find/gui2.png "GUI")
