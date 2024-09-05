@@ -39,7 +39,26 @@ export default defineConfig({
             tr: "Hoş geldiniz!",
           },
         },
-      ],
+        {
+          label: "sFarmer",
+          badge: { text: "new product", variant: "success" },
+          items: [
+            {
+              slug: "sfarmer/info",
+              badge: { text: "?", variant: "default" },
+            },
+            {
+              label: "Features",
+              translations: {
+                tr: "Özellikler",
+              },
+              badge: { text: "⭐", variant: "tip" },
+              collapsed: true,
+              autogenerate: { directory: "sfarmer/features" },
+            },
+          ]
+        }
+      ]
     }),
   ],
 });
