@@ -39,6 +39,11 @@ export default defineConfig({
             tr: "Hoş geldiniz!",
           },
         },
+        {
+          label: "ToxicVaults",
+          badge: { text: "customer favorite", variant: "success" },
+          autogenerate: { directory: "toxicvaults" },
+        },
       ],
     }),
   ],
