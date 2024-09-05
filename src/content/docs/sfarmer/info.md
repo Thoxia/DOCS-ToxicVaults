@@ -25,7 +25,6 @@ sFarmer allows players to automatically collect farming items in their territory
 
 - **Settings:** The farmer owner can enable or disable automation options like auto-harvest, auto-plant, and auto-kill.
 
-
 ## Preview Video
 
 <iframe width="768" height="432" src="https://www.youtube.com/embed/yOmKw_QVdw8" title="sFarmer Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="height:432px; width:768px;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

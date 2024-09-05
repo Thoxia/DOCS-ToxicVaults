@@ -75,8 +75,8 @@ export default defineConfig({
               collapsed: true,
               autogenerate: { directory: "sfarmer/features" },
             },
-          ]
-        }
+          ],
+        },
       ],
     }),
   ],
