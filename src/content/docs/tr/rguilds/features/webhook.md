@@ -1,6 +1,6 @@
-----
-title: "Discord webhook"
-----
+---
+title: 'Discord webhook'
+---
 
 ### Webhook sistemi
 

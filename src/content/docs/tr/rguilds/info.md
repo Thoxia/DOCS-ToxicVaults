@@ -1,5 +1,5 @@
 ---
-title: "RGuilds"
+title: "Tanıtım"
 ---
 
 ## RGuilds - Gelişmiş Lonca Eklentisi
@@ -40,6 +40,18 @@ title: "RGuilds"
     - Lonca içinde lider bir lonca arması seçebilir ve düşmanlarının bunu görmesini sağlayabilir.
 - Discord webhook desteği:
     - Bir lonca savaş başlattığında veya bitirdiğinde Discord webhook gönderme.
+- Kod ile katılım
+    - Lonca lideri loncası için bir kod oluşturabilir ve oyuncuların bu kod ile katılmasına izin verebilir.
+- Özelleştirilebilir Moderator yetkileri
+    - Lonca lideri, lonca moderatörlerine istediği gibi yetki verebilir (davet,pvp,savaş vb.)
+
+
+
+
+## GUI tasarım videosu
+
+[Tanıtım videosu](https://www.youtube.com/watch?v=hsbzZDGteXI)
+
 
 ### Bağımlılıklar
 
@@ -52,7 +64,7 @@ title: "RGuilds"
 **Oyuncu Komutları**
 
 `/guild create <name>` - Lonca kurulmasını sağlar.  
-`/guild join <player>` - Davet gönderen oyuncunun loncasına katılmasını sağlar.  
+`/guild accept <player>` - Davet gönderen oyuncunun loncasına katılmasını sağlar.  
 `/guild invite <player>` - Bir oyuncuya davet gönderir.  
 `/guild leave` - Bağlı olduğu loncadan ayrılır.  
 `/guild kick <player>` - Oyuncuyu loncadan atar.  
@@ -60,7 +72,8 @@ title: "RGuilds"
 `/guild rename <name>` - Lonca ismini günceller.  
 `/guild war start/end <name>` - Bir loncaya savaş başlatır/durdurur.  
 `/guildwar banner` - Elinde tuttuğu flamayı lonca flaması olarak ayarlar.
-
+`/guildwar join <code>` - Belirtilen kod ile bir loncaya katılır.
+ 
 **Admin Komutları**
 
 `/adminclaim delete <guildname>` - Bir loncayı siler.  
