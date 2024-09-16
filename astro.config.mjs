@@ -77,6 +77,35 @@ export default defineConfig({
             },
           ],
         },
+        {
+          label: "RGuilds",
+          badge: { text: "New Version", variant: "success" },
+          items: [
+            {
+              slug: "rguilds/info",
+              badge: { text: "?", variant: "default" },
+            },
+            {
+              label: "Features",
+              translations: {
+                tr: "Özellikler",
+              },
+              badge: { text: "⭐", variant: "tip" },
+              collapsed: true,
+              autogenerate: { directory: "rguilds/features" },
+            },
+            {
+              label: "Modules",
+              translations: {
+                tr: "Modüller",
+              },
+              badge: { text: "⭐", variant: "tip" },
+              collapsed: true,
+              autogenerate: { directory: "rguilds/modules"
+              },
+            },
+          ],
+        },
       ],
     }),
   ],
